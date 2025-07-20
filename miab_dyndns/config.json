@@ -1,0 +1,29 @@
+{
+  "name": "MIAB Dynamic DNS",
+  "version": "1.0",
+  "slug": "miab_dyndns",
+  "description": "Use Mail In A Box API to set an A record for your Home Assistant.",
+  "url": "https://github.com/kmahelona/miab_dyndns",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "once",
+  "boot": "manual",
+  "init": false,
+  "options": {
+    "server": "",
+    "domain": "",
+    "username": "",
+    "password": ""
+  },
+  "schema": {
+    "server": "str",
+    "domain": "str",
+    "username": "str",
+    "password": "str"
+  }
+}
