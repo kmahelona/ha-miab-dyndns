@@ -3,7 +3,7 @@
   "version": "1.0",
   "slug": "miab_dyndns",
   "description": "Use Mail In A Box API to set an A record for your Home Assistant.",
-  "url": "https://github.com/kmahelona/miab_dyndns",
+  "url": "https://github.com/kmahelona/ha-miab-dyndns",
   "arch": [
     "armhf",
     "armv7",

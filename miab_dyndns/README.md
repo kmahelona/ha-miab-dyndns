@@ -7,7 +7,6 @@ username: miab_user
 password: miab_password
 ```
 
-
 ## Example Automation
 ```yaml
 alias: Renew DNS
